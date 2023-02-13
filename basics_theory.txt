@@ -1,0 +1,34 @@
+***Package***
+-domain name
+-becomes more specific from left to right
+-name has lowercase letters (recommended)
+
+***Classes***
+-Name should be a noun
+-The first letter should be capital
+
+***Methods***
+-should be verb
+-starts with a lower case letter 
+
+***Anology for Packages, Classes, and Methods***
+-Package = chapter of a book
+-Class = paragraph of a chapter
+-Methods = Line of a paragraph
+
+***types of variables***
+-instance variable 
+-static variable 
+-local variable
+-parameter
+-argument
+
+***Access Modifiers***
+-public
+-private
+-protected
+
+***Constructor***
+-special method
+-called when a new object is created
+-called only once 
