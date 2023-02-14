@@ -14,4 +14,19 @@ public class PersonTest{
         //else the test would fail
         assertEquals("Hello World", shafay.helloWorld());
     }
+
+    @Test
+    public void printHelloName(){
+        Person person = new Person();
+        assertEquals("Hello Shafay", person.hello("Shafay"));
+    }
+
+    @Test
+    public void numberOfPersons(){
+        Person person1 = new Person();
+        Person person2 = new Person();
+        Person person3 = new Person();
+
+        assertEquals(3, Person.numberofPersons());
+    }
 }
