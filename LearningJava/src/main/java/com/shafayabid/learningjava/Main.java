@@ -31,12 +31,15 @@ public class Main {
 
         double d1 = Math.pow(x,y);
 
+        double divideTypeCasting = z / (double)y;
+
         System.out.println(sum);
         System.out.println(difference);
         System.out.println(multiply);
         System.out.println(divide);
         System.out.println(divide1);
         System.out.println(divide2);
+        System.out.println(divideTypeCasting);
         System.out.println(d1);
 
 
