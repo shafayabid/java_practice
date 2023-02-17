@@ -14,6 +14,19 @@ public class Main {
         //print statements
         System.out.println("Hello World");
         System.out.println(hello_world);
+
+        //basic operators
+        int x = 5;
+        int y = 7;
+        int z = 15;
+        int sum = x + y + z;
+        int difference = x - y - z;
+        int multiply = x * y * z;
+
+        System.out.println(sum);
+        System.out.println(difference);
+        System.out.println(multiply);
+
     }
 
 
