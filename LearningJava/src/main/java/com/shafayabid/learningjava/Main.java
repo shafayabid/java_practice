@@ -22,10 +22,25 @@ public class Main {
         int sum = x + y + z;
         int difference = x - y - z;
         int multiply = x * y * z;
+        int divide = z / y;
+        double divide1 = z / y;
+
+        double a = 7;
+        double b1 = 15;
+        double divide2 = b1 / a;
+
+        double d1 = Math.pow(x,y);
 
         System.out.println(sum);
         System.out.println(difference);
         System.out.println(multiply);
+        System.out.println(divide);
+        System.out.println(divide1);
+        System.out.println(divide2);
+        System.out.println(d1);
+
+
+
 
     }
 
