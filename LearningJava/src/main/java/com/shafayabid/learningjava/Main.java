@@ -1,4 +1,5 @@
 package com.shafayabid.learningjava;
+import java.util.Scanner;
 
 public class Main {
 
@@ -41,6 +42,26 @@ public class Main {
         System.out.println(divide2);
         System.out.println(divideTypeCasting);
         System.out.println(d1);
+
+        //initializing new scanner
+        Scanner sc = new Scanner(System.in);
+
+        //String input
+        String scanned = sc.next();
+        System.out.println(scanned);
+        //converting input to a different datatype
+        int abc = Integer.parseInt(scanned);
+
+        //integer input
+        int scannedInt = sc.nextInt();
+        System.out.println(scannedInt);
+
+        //other inputs
+        double scannedDouble = sc.nextDouble();
+        boolean scannedBoolean = sc.nextBoolean();
+
+
+
 
 
 
