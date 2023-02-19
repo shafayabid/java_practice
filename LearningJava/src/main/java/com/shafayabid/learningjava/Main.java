@@ -11,6 +11,9 @@ public class Main {
         char d = '4';
         String str = "this is a string";
 
+        //add underscores to bigger numbers for better readability
+        int numWithUnderscores = 1_000_000_008;
+
         //print statements
         System.out.println("Hello World");
         System.out.println(hello_world);
@@ -72,6 +75,14 @@ public class Main {
 
         boolean compare = !(l > m || n < m);
         System.out.println(compare);
+
+        //increment and decrement numbers
+        int number = 0;
+        //return the value and then increment by 1
+        System.out.println(number++);
+        System.out.println(number);
+        //increment by 1 and then return the value
+        System.out.println(++number); //the same goes for decrement operators
 
     }
 }
