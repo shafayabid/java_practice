@@ -2,7 +2,6 @@ package com.shafayabid.learningjava;
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args){
         //datatypes
         int hello_world = 5;
@@ -47,26 +46,32 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         //String input
+        System.out.println("Enter Integer:");
         String scanned = sc.next();
         System.out.println(scanned);
         //converting input to a different datatype
         int abc = Integer.parseInt(scanned);
 
         //integer input
+        System.out.println("Enter Integer:");
         int scannedInt = sc.nextInt();
         System.out.println(scannedInt);
 
         //other inputs
+        System.out.println("Enter Double:");
         double scannedDouble = sc.nextDouble();
+        System.out.println("Enter Boolean:");
         boolean scannedBoolean = sc.nextBoolean();
+        System.out.println("---------------------------------");
 
 
+        //Conditions and Booleans
+        int l = 34;
+        int m = 65;
+        int n = 23;
 
-
-
-
+        boolean compare = !(l > m || n < m);
+        System.out.println(compare);
 
     }
-
-
 }
