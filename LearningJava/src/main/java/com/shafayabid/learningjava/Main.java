@@ -1,4 +1,6 @@
 package com.shafayabid.learningjava;
+import java.awt.*;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -97,6 +99,21 @@ public class Main {
         System.out.println(string.substring(14));
         System.out.println("    ".isEmpty()); //false
         System.out.println("    ".isBlank()); //true
+
+        //point class
+        Point pointA = new Point(23,10);
+        System.out.println(pointA);
+
+        //arrays
+        int[] array = new int[3];
+        array[0] = 1;
+        array[1] = 23;
+        array[2] = 5;
+        System.out.println(array);
+        System.out.println(Arrays.toString(array));
+        int[] array2 = {1,2,35,6,8};
+        int[] fillArray = new int[-1];
+        Arrays.fill(fillArray,2);
 
     }
 }
