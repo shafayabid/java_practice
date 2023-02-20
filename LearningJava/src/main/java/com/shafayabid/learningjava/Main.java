@@ -112,8 +112,16 @@ public class Main {
         System.out.println(array);
         System.out.println(Arrays.toString(array));
         int[] array2 = {1,2,35,6,8};
-        int[] fillArray = new int[-1];
+        int[] fillArray = new int[5];
         Arrays.fill(fillArray,2);
+
+        //loops and arrays
+        String[] names = {"shafay", "abid", "ali", "ibrahim", "hassan", "muhammad"};
+
+        //printing strings array
+        for(int i = 0; i < names.length; i++){
+            System.out.println(names[i]);
+        }
 
     }
 }
