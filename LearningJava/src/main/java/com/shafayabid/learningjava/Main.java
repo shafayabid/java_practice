@@ -84,5 +84,19 @@ public class Main {
         //increment by 1 and then return the value
         System.out.println(++number); //the same goes for decrement operators
 
+        //shorthand assignment operators
+        int numberOne = 23;
+        numberOne += 2;
+        numberOne *= 2;
+        numberOne /= 2;
+        numberOne %= 2;
+
+        //strings
+        String string = "shafay learns java";
+        System.out.println(string.toUpperCase());
+        System.out.println(string.substring(14));
+        System.out.println("    ".isEmpty()); //false
+        System.out.println("    ".isBlank()); //true
+
     }
 }
