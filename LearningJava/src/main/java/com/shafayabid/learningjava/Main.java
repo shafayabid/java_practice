@@ -137,5 +137,10 @@ public class Main {
             System.out.println(str1);
         }
 
+        //ENUMS
+        for(LoggingLevel states : LoggingLevel.values()){
+            System.out.println(states);
+        }
+
     }
 }
