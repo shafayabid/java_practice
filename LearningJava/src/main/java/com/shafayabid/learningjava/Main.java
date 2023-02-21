@@ -51,21 +51,21 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         //String input
-        System.out.println("Enter Integer:");
+        System.out.print("Enter Integer:");
         String scanned = sc.next();
         System.out.println(scanned);
         //converting input to a different datatype
         int abc = Integer.parseInt(scanned);
 
         //integer input
-        System.out.println("Enter Integer:");
+        System.out.print("Enter Integer:");
         int scannedInt = sc.nextInt();
         System.out.println(scannedInt);
 
         //other inputs
-        System.out.println("Enter Double:");
+        System.out.print("Enter Double:");
         double scannedDouble = sc.nextDouble();
-        System.out.println("Enter Boolean:");
+        System.out.print("Enter Boolean:");
         boolean scannedBoolean = sc.nextBoolean();
         System.out.println("---------------------------------");
 
@@ -123,12 +123,18 @@ public class Main {
             System.out.println(names[i]);
         }
 
+        //conditional statements
         if(true){
             System.out.println("true");
         }else if(false){
             System.out.println(false);
         }else{
             System.out.println("neither");
+        }
+
+        //for each loop (arrays)
+        for(String str1: names){
+            System.out.println(str1);
         }
 
     }
