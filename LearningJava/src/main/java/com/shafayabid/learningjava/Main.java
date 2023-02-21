@@ -123,5 +123,13 @@ public class Main {
             System.out.println(names[i]);
         }
 
+        if(true){
+            System.out.println("true");
+        }else if(false){
+            System.out.println(false);
+        }else{
+            System.out.println("neither");
+        }
+
     }
 }
