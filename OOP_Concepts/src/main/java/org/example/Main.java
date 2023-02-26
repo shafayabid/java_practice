@@ -15,5 +15,11 @@ public class Main {
         arr.printArray(nums);
         System.out.println();
         arr.printUsingForEach(nums);
+        System.out.println("---------");
+
+        JaggedArray ja = new JaggedArray();
+        int nums2[][] = new int[4][];
+        nums2 = ja.fillArray(nums2);
+        ja.printUsingForEach(nums2);
     }
 }
