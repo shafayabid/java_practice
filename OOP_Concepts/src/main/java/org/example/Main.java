@@ -21,5 +21,11 @@ public class Main {
         int nums2[][] = new int[4][];
         nums2 = ja.fillArray(nums2);
         ja.printUsingForEach(nums2);
+        System.out.println("---------");
+
+        Strings str = new Strings();
+        StringBuffer name = new StringBuffer("Shafay");
+        str.appendString(name);
+        str.insertString(name);
     }
 }
