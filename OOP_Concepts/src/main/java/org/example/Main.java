@@ -27,5 +27,18 @@ public class Main {
         StringBuffer name = new StringBuffer("Shafay");
         str.appendString(name);
         str.insertString(name);
+        System.out.println("---------");
+
+        Mobile mob = new Mobile();
+        mob.brand = "Samsung";
+        mob.price = 200;
+
+        Mobile mob1 = new Mobile();
+        mob1.brand = "Apple";
+        mob1.price = 300;
+
+        mob.show();
+        mob1.show();
+        Mobile.showStatic(mob);
     }
 }
