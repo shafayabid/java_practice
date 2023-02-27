@@ -40,5 +40,11 @@ public class Main {
         mob.show();
         mob1.show();
         Mobile.showStatic(mob);
+        System.out.println("---------");
+
+        Human hum = new Human();
+        hum.setAge(24);
+        hum.setName("Shafay");
+        System.out.println(hum.getName() + " : " + hum.getAge());
     }
 }
