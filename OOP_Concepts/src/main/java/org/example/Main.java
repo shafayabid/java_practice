@@ -46,5 +46,8 @@ public class Main {
         hum.setAge(24);
         hum.setName("Shafay");
         System.out.println(hum.getName() + " : " + hum.getAge());
+        System.out.println("---------");
+
+        ClassB bclass = new ClassB(5);
     }
 }
