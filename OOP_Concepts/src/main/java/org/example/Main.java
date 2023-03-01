@@ -52,5 +52,12 @@ public class Main {
         System.out.println("---------");
 
         new ClassA().show(); //creating anonymous object
+        System.out.println("---------");
+
+        AdvCalc calc = new AdvCalc();
+        int v1 = calc.add(1,2);
+        int v2 = calc.sub(3,2);
+        System.out.println(v1 + " " + v2);
+
     }
 }
