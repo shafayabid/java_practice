@@ -49,5 +49,8 @@ public class Main {
         System.out.println("---------");
 
         ClassB bclass = new ClassB(5);
+        System.out.println("---------");
+
+        new ClassA().show(); //creating anonymous object
     }
 }

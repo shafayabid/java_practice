@@ -7,4 +7,8 @@ public class ClassA {
     public ClassA(int a){
         System.out.println("Parameterized constructor of class A");
     }
+
+    public void show(){
+        System.out.println("anonymous object created");
+    }
 }
