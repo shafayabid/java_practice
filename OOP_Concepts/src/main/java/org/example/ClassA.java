@@ -9,6 +9,7 @@ public class ClassA {
     }
 
     public void show(){
+
         System.out.println("anonymous object created");
     }
 }

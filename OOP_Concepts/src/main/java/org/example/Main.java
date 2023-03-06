@@ -58,6 +58,9 @@ public class Main {
         int v1 = calc.add(1,2);
         int v2 = calc.sub(3,2);
         System.out.println(v1 + " " + v2);
+        System.out.println("---------");
 
+        ClassA objA = new ClassB();
+        ClassB objB = (ClassB) objA;
     }
 }
