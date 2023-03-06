@@ -62,5 +62,10 @@ public class Main {
 
         ClassA objA = new ClassB();
         ClassB objB = (ClassB) objA;
+        System.out.println("---------");
+
+        Suzuki alto = new Suzuki();
+        alto.playMusc();
+        alto.drive();
     }
 }
