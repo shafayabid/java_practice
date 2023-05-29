@@ -12,4 +12,10 @@ public class ClassA {
 
         System.out.println("anonymous object created");
     }
+
+    static class inA{
+        public inA(){
+            System.out.println("inner class working");
+        }
+    }
 }

@@ -67,5 +67,16 @@ public class Main {
         Suzuki alto = new Suzuki();
         alto.playMusc();
         alto.drive();
+        System.out.println("---------");
+
+        ClassA.inA objInnerClass = new ClassA.inA();
+        ClassA anonObj = new ClassA(){
+            public void show(){
+
+                System.out.println("anonymous object in new A created");
+            }
+        };
+        anonObj.show();
+        System.out.println("---------");
     }
 }
