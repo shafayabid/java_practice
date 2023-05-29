@@ -77,6 +77,18 @@ public class Main {
             }
         };
         anonObj.show();
+
+        Car Isuzu = new Car(){
+//            public void playMusc(){
+//                System.out.println("music playing in the Abstract Car class");
+//            }
+            public void drive(){
+                System.out.println("Drive Implemented in Anon Class");
+            };
+        };
+
+        Isuzu.drive();
+
         System.out.println("---------");
     }
 }
