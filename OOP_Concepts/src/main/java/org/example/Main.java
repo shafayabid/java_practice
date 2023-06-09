@@ -90,5 +90,9 @@ public class Main {
         Isuzu.drive();
 
         System.out.println("---------");
+
+        InterfaceBasics eiObj = new ExtendInterface();
+        eiObj.print();
+        System.out.println(InterfaceBasics.myAge);
     }
 }

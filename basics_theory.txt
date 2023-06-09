@@ -35,3 +35,8 @@
 
 ***Java Reserved Keywords***
 -https://www.w3schools.com/java/java_ref_keywords.asp
+
+***Inheritence***
+Class-Class = Extends
+Class-Interface = Implements
+Interface-Interface = Extends
