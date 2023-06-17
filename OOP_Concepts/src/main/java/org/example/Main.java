@@ -94,5 +94,18 @@ public class Main {
         InterfaceBasics eiObj = new ExtendInterface();
         eiObj.print();
         System.out.println(InterfaceBasics.myAge);
+
+        System.out.println("---------");
+
+        Status status = Status.Pending;
+        System.out.println(status.Failed);
+
+        Status[] statusArray = Status.values();
+        for(Status s : statusArray){
+            System.out.println(s);
+        }
+
+        Laptop laptop = Laptop.Macbook;
+        System.out.println(laptop.getPrice());
     }
 }
